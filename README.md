@@ -2,11 +2,18 @@
 
 Dan Villarreal (University of Pittsburgh)
 
-This repository contains data for the under-review paper "Gender separation and the Speech Community: Rhoticity in early 20th century Southland New Zealand English." The data consists of 30,777 non-prevocalic /r/ tokens from Southland New Zealand English. Almost all tokens are coded for /r/, most by a [sociolinguistic auto-coding algorithm](https://www.journal-labphon.org/articles/10.5334/labphon.216/). 10,337 tokens were analyzed in at least one model due to various exclusions (e.g., only content words were analyzed). To ensure anonymity, both the Speaker and Word columns have been replaced with anonymous codes.
+This repository contains data for the paper "Gender separation and the Speech Community: Rhoticity in early 20th century Southland New Zealand English," published in 2021 in the journal [_Language Variation and Change_](https://doi.org/10.1017/S0954394521000090). The data consists of 30,777 non-prevocalic /r/ tokens from Southland New Zealand English, with one row per token. Almost all tokens are coded for /r/, most by a [sociolinguistic auto-coding algorithm](https://www.journal-labphon.org/articles/10.5334/labphon.216/). 10,337 tokens were analyzed in at least one model due to various exclusions (e.g., only content words were analyzed). To ensure anonymity, both the Speaker and Word columns have been replaced with anonymous codes.
 
 The data is in two formats: .Rds (for use in the R statistical computing environment) and .csv (with blanks for what are called `NA`s in R parlance).
 
 If you have any questions, please do not hesitate to email me (d.vill atsign pitt.edu) or create a GitHub issue.
+
+If you use this data in any published work, please cite it. Citing open data is a small thing you can do to ensure that researchers have the incentive to keep making data open.
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ## Columns
 
@@ -51,3 +58,4 @@ If you have any questions, please do not hesitate to email me (d.vill atsign pit
 * `HowCoded`: Whether the `Rpresent` code came from a human hand-coder or [auto-coding algorithm](https://www.journal-labphon.org/articles/10.5334/labphon.216/)
 * `Rpresent`: Rhoticity code: Present (aka r-ful, rhotic) vs. Absent (aka r-less, nonrhotic)
 * `ProbPresent`: Classifier probability: Probability that each token was Present, as estimated by the [auto-coding algorithm](https://www.journal-labphon.org/articles/10.5334/labphon.216/)
+
